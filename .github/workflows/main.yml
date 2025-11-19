@@ -9,12 +9,14 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v4.3.1
-      - name: Setup Node JS
-      - uses: actions/setup-node@v6.0.0
-        with: # konsa version use krna hai uske liye ham with ka istemal karte hai.
-          node-version: 22.x
-      - name: Install Dependencies
-        run: npm install
-      - name: Build Angular app
-        run: npm run build
+      # - uses: actions/checkout@v4.3.1
+      # - name: Setup Node JS
+      # - uses: actions/setup-node@v6.0.0
+       # with: # konsa version use krna hai uske liye ham with ka istemal karte hai.
+        #  node-version: 22.x
+      #- name: Install Dependencies
+       # run: npm install
+      #- name: Build Angular app
+       # run: npm run build
+       - name: Sample
+         run: mkdir -d hello
