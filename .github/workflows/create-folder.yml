@@ -1,0 +1,14 @@
+name: Create Folder
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  ubuntu:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Create a New Folder
+        run: mkdiir -p "Manish"
+             echo "Hello" > /Manish/test.txt
