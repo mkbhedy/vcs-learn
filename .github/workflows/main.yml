@@ -1,5 +1,5 @@
 // WorkFlow Name
-name: Sample Workflow
+name:Sample Workflow
 
 // Trigger Push Event and Start Workflow
 on:
