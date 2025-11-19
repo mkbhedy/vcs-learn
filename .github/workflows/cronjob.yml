@@ -1,0 +1,13 @@
+name: crontab
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Print mEssage
+        run: echo "Hello Sir"
