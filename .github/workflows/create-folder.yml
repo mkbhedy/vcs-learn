@@ -10,5 +10,6 @@ jobs:
 
     steps:
       - name: Create a New Folder
-        run: mkdiir -p "Manish"
-             echo "Hello" > /Manish/test.txt
+        run: mkdiir manish
+             echo "Hello" > /manish/test.txt
+             touch /manish/manish.txt
