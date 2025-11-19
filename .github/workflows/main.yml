@@ -1,17 +1,13 @@
-// WorkFlow Name
-name:Sample Workflow
+name: Sample Workflow
 
-// Trigger Push Event and Start Workflow
 on:
   push:
     branches: [ main]
 
-// Jobs
 jobs:
   ubuntu:
     runs-on: ubuntu-22.04
 
-// Tasks
     steps:
       - name: Greetings
         run: echo "Hello"
