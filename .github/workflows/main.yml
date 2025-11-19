@@ -19,4 +19,4 @@ jobs:
       #- name: Build Angular app
        # run: npm run build
        - name: Sample
-         run: mkdir -d hello
+         run: mkdir -p hello
